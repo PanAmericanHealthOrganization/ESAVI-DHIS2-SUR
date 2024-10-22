@@ -1,0 +1,2194 @@
+{
+    "userRoles": [{
+            "created": "2021-07-23T13:30:57.334",
+            "lastUpdated": "2021-07-23T13:30:57.334",
+            "name": "Dashboard - Aggregate",
+            "id": "BVq3WYiGt5Y",
+            "description": "Access to the dashboard and aggregate analytics",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "authorities": ["M_dhis-web-cache-cleaner", "M_dhis-web-dashboard"],
+            "translations": []
+        }, {
+            "created": "2021-07-23T13:31:37.607",
+            "lastUpdated": "2021-07-23T13:31:37.607",
+            "name": "Dashboard - Tracker",
+            "id": "OSEPPGKPeNg",
+            "description": "Access to the dashboard and event analytics",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "authorities": ["M_dhis-web-cache-cleaner", "F_VIEW_EVENT_ANALYTICS", "M_dhis-web-dashboard"],
+            "translations": []
+        }, {
+            "created": "2021-07-14T17:20:09.951",
+            "lastUpdated": "2021-09-13T21:12:27.584",
+            "name": "Data Analysis - Aggregate",
+            "id": "FX8Ke4uheEY",
+            "description": "Access to reports, maps, data visualizer, data quality",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "authorities": ["M_dhis-web-data-quality", "M_dhis-web-data-visualizer", "M_dhis-web-dashboard", "F_RUN_VALIDATION", "M_dhis-web-reports", "M_dhis-web-maps"],
+            "translations": []
+        }, {
+            "created": "2021-06-10T16:36:54.950",
+            "lastUpdated": "2021-09-13T21:12:27.578",
+            "name": "Data Analysis - Event and Tracker ",
+            "id": "Zsv2oxDpUht",
+            "description": "Access to reports, maps, visualizer, event reports and event visualizer",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "authorities": ["M_dhis-web-cache-cleaner", "M_dhis-web-event-visualizer", "M_dhis-web-event-reports", "F_VIEW_EVENT_ANALYTICS", "M_dhis-web-data-visualizer", "M_dhis-web-dashboard", "M_dhis-web-reports", "M_dhis-web-maps"],
+            "translations": []
+        }, {
+            "created": "2021-07-14T17:27:36.217",
+            "lastUpdated": "2021-09-13T21:12:27.581",
+            "name": "Data Entry - Aggregate (with delete)",
+            "id": "pyiLCpwplsZ",
+            "description": "Enter aggregate data via data entry app - can delete data values",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "authorities": ["F_DATAVALUE_DELETE", "M_dhis-web-cache-cleaner", "M_dhis-web-menu-management", "M_dhis-web-dataentry", "M_dhis-web-dashboard", "F_DATAVALUE_ADD"],
+            "translations": []
+        }, {
+            "created": "2021-07-14T17:25:31.829",
+            "lastUpdated": "2021-09-13T21:12:27.587",
+            "name": "Data Entry - Tracker (with delete)",
+            "id": "FTB5WdjOohF",
+            "description": "Enter tracker data via tracker capture with permission to delete TEIs and enrollments and re-open events",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "authorities": ["F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS", "F_ENROLLMENT_CASCADE_DELETE", "M_dhis-web-cache-cleaner", "F_VIEW_EVENT_ANALYTICS", "F_TRACKED_ENTITY_UPDATE", "M_dhis-web-messaging", "M_dhis-web-tracker-capture", "F_TRACKED_ENTITY_ADD", "M_dhis-web-dashboard", "F_TEI_CASCADE_DELETE", "F_UNCOMPLETE_EVENT", "F_TRACKED_ENTITY_DELETE"],
+            "translations": []
+        }, {
+            "created": "2021-06-10T16:36:04.672",
+            "lastUpdated": "2021-09-13T21:11:49.976",
+            "name": "Data Entry - Tracker (without delete)",
+            "id": "gnZZ4hvvAMW",
+            "description": "Enter tracker data via tracker capture - can not delete TEIs or enrollments",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "authorities": ["F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS", "M_dhis-web-cache-cleaner", "M_dhis-web-menu-management", "F_VIEW_EVENT_ANALYTICS", "F_TRACKED_ENTITY_UPDATE", "M_dhis-web-messaging", "M_dhis-web-tracker-capture", "F_TRACKED_ENTITY_ADD", "M_dhis-web-dashboard"],
+            "translations": []
+        }, {
+            "code": "Superuser",
+            "created": "2021-06-01T13:55:09.412",
+            "lastUpdated": "2021-07-30T20:21:02.220",
+            "name": "System Administration",
+            "id": "yrB6vc5Ip3r",
+            "description": "System Administration",
+            "lastUpdatedBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "createdBy": {
+                "displayName": "Marko García",
+                "name": "Marko García",
+                "id": "dMoKYOPr2dl",
+                "username": "marko"
+            },
+            "authorities": ["F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS", "ALL", "F_USERGROUP_MANAGING_RELATIONSHIPS_ADD", "F_USER_VIEW", "F_GENERATE_MIN_MAX_VALUES", "F_USER_GROUPS_READ_ONLY_ADD_MEMBERS", "F_PREDICTOR_RUN", "F_IGNORE_TRACKER_REQUIRED_VALUE_VALIDATION", "F_MAP_PUBLIC_ADD", "F_REPLICATE_USER", "F_SEND_EMAIL", "F_INSERT_CUSTOM_JS_CSS", "F_ENROLLMENT_CASCADE_DELETE", "F_VIEW_EVENT_ANALYTICS", "F_VIEW_UNAPPROVED_DATA", "F_IMPORT_EVENTS", "F_USERGROUP_MANAGING_RELATIONSHIPS_VIEW", "F_TEI_CASCADE_DELETE", "F_EXPORT_DATA", "F_EDIT_EXPIRED", "F_EVENTCHART_PUBLIC_ADD", "F_PROGRAM_DASHBOARD_CONFIG_ADMIN", "F_SYSTEM_SETTING", "F_EVENT_VISUALIZATION_PUBLIC_ADD", "F_APPROVE_DATA_LOWER_LEVELS", "F_VISUALIZATION_PUBLIC_ADD", "F_REPORT_PUBLIC_ADD", "F_ORGANISATIONUNIT_MOVE", "F_SKIP_DATA_IMPORT_AUDIT", "F_RUN_VALIDATION", "F_IMPORT_DATA", "F_LOCALE_ADD", "F_METADATA_IMPORT", "F_EXPORT_EVENTS", "M_dhis-web-data-visualizer", "F_PERFORM_MAINTENANCE", "F_METADATA_EXPORT", "F_APPROVE_DATA", "F_ACCEPT_DATA_LOWER_LEVELS", "F_UNCOMPLETE_EVENT"],
+            "translations": []
+        }
+    ],
+    "userGroups": [{
+            "code": "AEFI_ACCESS",
+            "created": "2021-09-13T04:07:44.638",
+            "lastUpdated": "2024-06-06T11:30:14.213",
+            "name": "AEFI access",
+            "id": "J3mFUNTreYY",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Marko García",
+                "name": "Marko García",
+                "id": "dMoKYOPr2dl",
+                "username": "marko"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "SsLExjAAhUw"
+                }, {
+                    "id": "XLsiwQPVwW2"
+                }, {
+                    "id": "EwFqXQN3iyM"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }, {
+                    "id": "i84zbzP5Hnb"
+                }, {
+                    "id": "M5zQapPyTZI"
+                }, {
+                    "id": "mM95iDn4ern"
+                }, {
+                    "id": "Kh43cXwiW6o"
+                }
+            ],
+            "managedGroups": [],
+            "translations": [{
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Accès aux MAPI"
+                }, {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV access"
+                }, {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "AEFI Přístup"
+                }, {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Acceso ESAVI"
+                }
+            ]
+        }, {
+            "code": "AEFI_ADMIN",
+            "created": "2021-09-13T04:07:44.638",
+            "lastUpdated": "2024-06-06T11:30:14.146",
+            "name": "AEFI admin",
+            "id": "kPBGgIFMNFv",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [{
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Administrador de ESAVI"
+                }, {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "AEFI Správce "
+                }, {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV admin"
+                }, {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Gestion de la MAPI"
+                }
+            ]
+        }, {
+            "code": "AEFI_DATA",
+            "created": "2021-09-13T04:07:44.638",
+            "lastUpdated": "2024-06-06T11:30:14.147",
+            "name": "AEFI data capture",
+            "id": "RWyhKm0cuQ5",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [{
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Captura de datos ESAVI"
+                }, {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "AEFI Sběr dat"
+                }, {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Saisie de données de la MAPI"
+                }, {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV data capture"
+                }
+            ]
+        }, {
+            "created": "2021-07-14T17:53:14.345",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Administrative Assistant",
+            "id": "SBLMwZxwsLK",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "Kg1UDtaZY11"
+                }, {
+                    "id": "TxNtxNEi3zr"
+                }, {
+                    "id": "t7Cg93JXBx5"
+                }, {
+                    "id": "HbTFEGlYWgI"
+                }, {
+                    "id": "giZ4uq6qHIG"
+                }, {
+                    "id": "nrfWYK744W3"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }, {
+                    "id": "DibCXJ4AE5Z"
+                }, {
+                    "id": "BXR4aUt4MMh"
+                }, {
+                    "id": "eEdTOt4KBwJ"
+                }, {
+                    "id": "P0oQBZ9jPEa"
+                }, {
+                    "id": "jZcWuMeBHov"
+                }, {
+                    "id": "FRJo7kSsFxP"
+                }, {
+                    "id": "lBk3uZIFPe4"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T17:53:01.451",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Admins",
+            "id": "BZZrqkfUU1r",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "dMoKYOPr2dl"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-15T14:22:50.190",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "COVAC - COVID-19 Immunization Registry",
+            "id": "oylbO3Ymnzd",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "VaqVniaXtLC"
+                }, {
+                    "id": "uIiKM6rlmwq"
+                }, {
+                    "id": "Y9EP5B4Ic4z"
+                }, {
+                    "id": "lvo94i4UTZu"
+                }, {
+                    "id": "pWsxKWHfpmV"
+                }, {
+                    "id": "HQfr6Uqs2SJ"
+                }, {
+                    "id": "R5x3KZSHX9g"
+                }, {
+                    "id": "FXRnm0dlNKl"
+                }, {
+                    "id": "jhpyx7DsMf6"
+                }, {
+                    "id": "v2DxagGEjnR"
+                }, {
+                    "id": "Bwp9zHRGpMc"
+                }, {
+                    "id": "qBSWQsQtBdh"
+                }, {
+                    "id": "OdDHcgnuw3Z"
+                }, {
+                    "id": "ssyFo1g1YcU"
+                }, {
+                    "id": "J9FmoOw5RF9"
+                }, {
+                    "id": "cn1VIoaTpeH"
+                }, {
+                    "id": "Uja3fPj28sI"
+                }, {
+                    "id": "c7jMZgDNHuI"
+                }, {
+                    "id": "OEoE6FYxyBQ"
+                }, {
+                    "id": "KAHEZDK0EBr"
+                }, {
+                    "id": "KyTdJbajRJs"
+                }, {
+                    "id": "NoeN8rjQ8ZT"
+                }, {
+                    "id": "qOz5F5ueMUM"
+                }, {
+                    "id": "qqZ8WMy1OnS"
+                }, {
+                    "id": "aDRF30jbPdg"
+                }, {
+                    "id": "tPm2oj2Pcvx"
+                }, {
+                    "id": "lCF2px8BC6O"
+                }, {
+                    "id": "xo3Con8iMUI"
+                }, {
+                    "id": "V7PQtcOKLaa"
+                }, {
+                    "id": "Bl6HitooSKQ"
+                }, {
+                    "id": "E4czOVNlJDS"
+                }, {
+                    "id": "rpv4H6oCbzK"
+                }, {
+                    "id": "piXVJ8ww935"
+                }, {
+                    "id": "AqP5eot0sAB"
+                }, {
+                    "id": "SQCd0qB8cdD"
+                }, {
+                    "id": "kDGf1X5hZAD"
+                }, {
+                    "id": "f2Qj0OMkPPb"
+                }, {
+                    "id": "K3HGH3qlIMg"
+                }, {
+                    "id": "wTlxmwbcxGe"
+                }, {
+                    "id": "xwuz9lEtyU3"
+                }, {
+                    "id": "bRtYmwR1M5l"
+                }, {
+                    "id": "mvnISJllh78"
+                }, {
+                    "id": "PsyzKcfcXk5"
+                }, {
+                    "id": "tktF2xxUpzV"
+                }, {
+                    "id": "gNwAo2vaXqF"
+                }, {
+                    "id": "Uxsa6OebKK9"
+                }, {
+                    "id": "BRIFLWWE1ze"
+                }, {
+                    "id": "cwYwAF4Iqud"
+                }, {
+                    "id": "EvXv5XVXKY3"
+                }, {
+                    "id": "bkdh0LaYxZ0"
+                }, {
+                    "id": "LewIElzKSOd"
+                }, {
+                    "id": "KLB7Uej9zxP"
+                }, {
+                    "id": "KdR0aTwNPOJ"
+                }, {
+                    "id": "YKXWRdmtOSq"
+                }, {
+                    "id": "o32EAlpkNZh"
+                }, {
+                    "id": "DPik96aIntg"
+                }, {
+                    "id": "foGgh2J7PSd"
+                }, {
+                    "id": "ZBFagnlFpkR"
+                }, {
+                    "id": "pLVryYy4WQE"
+                }, {
+                    "id": "KeS0jdFCvGw"
+                }, {
+                    "id": "NlvYOlvuPfT"
+                }, {
+                    "id": "wB1SScalQDG"
+                }, {
+                    "id": "LIAdF0wSK3A"
+                }, {
+                    "id": "h32r3ijmzHp"
+                }, {
+                    "id": "ugAuvsZaP3V"
+                }, {
+                    "id": "lrx5p11LM2G"
+                }, {
+                    "id": "qWHdAjNht9k"
+                }, {
+                    "id": "Y3M7EaonPn9"
+                }, {
+                    "id": "J9ar8dAwDRp"
+                }, {
+                    "id": "eb8kcibmB7G"
+                }, {
+                    "id": "flvdR9Q9Lbb"
+                }, {
+                    "id": "mwfQKoQqg5p"
+                }, {
+                    "id": "WAm685GFIoq"
+                }, {
+                    "id": "A44T2Km9kD9"
+                }, {
+                    "id": "AOFJbd1awqH"
+                }, {
+                    "id": "WYZb7w2dOB2"
+                }, {
+                    "id": "yluScudGYPM"
+                }, {
+                    "id": "Iochb7Rvvh5"
+                }, {
+                    "id": "Xm5OnQfDf1j"
+                }, {
+                    "id": "xqYQ9M9OC1v"
+                }, {
+                    "id": "WaJewTgRlkD"
+                }, {
+                    "id": "Pz66LuxquWk"
+                }, {
+                    "id": "gr6fnsJIYbV"
+                }, {
+                    "id": "bN00SAoYh8Z"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }, {
+                    "id": "bU1I1ExgbpU"
+                }, {
+                    "id": "s4PuLwCF3rm"
+                }, {
+                    "id": "l67h4A9Of2L"
+                }, {
+                    "id": "g24QpU1UfeM"
+                }, {
+                    "id": "SWUAmg31pjz"
+                }, {
+                    "id": "LoRi5Uu3uPx"
+                }, {
+                    "id": "bBmdmbaSkVo"
+                }, {
+                    "id": "YguRkJU3OYq"
+                }, {
+                    "id": "jl0K1xIjsnx"
+                }, {
+                    "id": "Js961HUOAXM"
+                }, {
+                    "id": "XfbOJQ58APg"
+                }, {
+                    "id": "owiR36Ye9fB"
+                }, {
+                    "id": "K1qGvZD98ue"
+                }, {
+                    "id": "VXlcEhz0cjB"
+                }, {
+                    "id": "hL0YSuysPy9"
+                }, {
+                    "id": "NhosE3tEo4c"
+                }, {
+                    "id": "Cy72j9bchwx"
+                }, {
+                    "id": "e5cWZO5tyJ0"
+                }, {
+                    "id": "Zgky9O0WXzD"
+                }, {
+                    "id": "oMaTfEyAOYT"
+                }, {
+                    "id": "ZSLrKk3p9Eu"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-06-04T10:42:20.686",
+            "lastUpdated": "2024-06-21T17:00:18.700",
+            "name": "COVAC - Covid-19 Immunization Data Analysis",
+            "id": "VLIaHu6ou8E",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Marko García",
+                "name": "Marko García",
+                "id": "dMoKYOPr2dl",
+                "username": "marko"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "VaqVniaXtLC"
+                }, {
+                    "id": "uIiKM6rlmwq"
+                }, {
+                    "id": "bWQG85oc0l3"
+                }, {
+                    "id": "SJCpE3dlboF"
+                }, {
+                    "id": "WFt1i2FT3nP"
+                }, {
+                    "id": "NBxhi5GYyXm"
+                }, {
+                    "id": "lvo94i4UTZu"
+                }, {
+                    "id": "HQfr6Uqs2SJ"
+                }, {
+                    "id": "R5x3KZSHX9g"
+                }, {
+                    "id": "FXRnm0dlNKl"
+                }, {
+                    "id": "SsLExjAAhUw"
+                }, {
+                    "id": "v2DxagGEjnR"
+                }, {
+                    "id": "qBSWQsQtBdh"
+                }, {
+                    "id": "ssyFo1g1YcU"
+                }, {
+                    "id": "lWvHdQ5nFCW"
+                }, {
+                    "id": "J9FmoOw5RF9"
+                }, {
+                    "id": "cn1VIoaTpeH"
+                }, {
+                    "id": "Uja3fPj28sI"
+                }, {
+                    "id": "c7jMZgDNHuI"
+                }, {
+                    "id": "OEoE6FYxyBQ"
+                }, {
+                    "id": "l4PRruvAqWq"
+                }, {
+                    "id": "KAHEZDK0EBr"
+                }, {
+                    "id": "KyTdJbajRJs"
+                }, {
+                    "id": "qOz5F5ueMUM"
+                }, {
+                    "id": "NoeN8rjQ8ZT"
+                }, {
+                    "id": "yM2KALeCzv3"
+                }, {
+                    "id": "fo3j1kV7X4S"
+                }, {
+                    "id": "aDRF30jbPdg"
+                }, {
+                    "id": "tPm2oj2Pcvx"
+                }, {
+                    "id": "xo3Con8iMUI"
+                }, {
+                    "id": "V7PQtcOKLaa"
+                }, {
+                    "id": "rpv4H6oCbzK"
+                }, {
+                    "id": "piXVJ8ww935"
+                }, {
+                    "id": "husRAYt4DYp"
+                }, {
+                    "id": "SQCd0qB8cdD"
+                }, {
+                    "id": "kDGf1X5hZAD"
+                }, {
+                    "id": "f2Qj0OMkPPb"
+                }, {
+                    "id": "PVCc3BioqGh"
+                }, {
+                    "id": "i84zbzP5Hnb"
+                }, {
+                    "id": "JGkS0VrMq2Y"
+                }, {
+                    "id": "wTlxmwbcxGe"
+                }, {
+                    "id": "HXBWFu68Ube"
+                }, {
+                    "id": "MTNhXsqHeLR"
+                }, {
+                    "id": "xwuz9lEtyU3"
+                }, {
+                    "id": "bRtYmwR1M5l"
+                }, {
+                    "id": "BXwEajwhoTK"
+                }, {
+                    "id": "ght6FIjQs4G"
+                }, {
+                    "id": "TAcrA7oxZFZ"
+                }, {
+                    "id": "FpEnIGJIlex"
+                }, {
+                    "id": "tktF2xxUpzV"
+                }, {
+                    "id": "gNwAo2vaXqF"
+                }, {
+                    "id": "Uxsa6OebKK9"
+                }, {
+                    "id": "cwYwAF4Iqud"
+                }, {
+                    "id": "NjAGMA5yOMK"
+                }, {
+                    "id": "XLsiwQPVwW2"
+                }, {
+                    "id": "quvT90tQZ7S"
+                }, {
+                    "id": "hEwh4AFkQAa"
+                }, {
+                    "id": "LewIElzKSOd"
+                }, {
+                    "id": "nUoyHmfGAmK"
+                }, {
+                    "id": "BXR4aUt4MMh"
+                }, {
+                    "id": "KdR0aTwNPOJ"
+                }, {
+                    "id": "KhUKLn8clmL"
+                }, {
+                    "id": "YKXWRdmtOSq"
+                }, {
+                    "id": "Jyr4f3rXFER"
+                }, {
+                    "id": "DPik96aIntg"
+                }, {
+                    "id": "O5esamAi2zX"
+                }, {
+                    "id": "j3ON9mNVEMm"
+                }, {
+                    "id": "foGgh2J7PSd"
+                }, {
+                    "id": "NOgHOOpG06m"
+                }, {
+                    "id": "pLVryYy4WQE"
+                }, {
+                    "id": "KeS0jdFCvGw"
+                }, {
+                    "id": "wB1SScalQDG"
+                }, {
+                    "id": "mKP65DcHTXf"
+                }, {
+                    "id": "Q1lg37FHJTs"
+                }, {
+                    "id": "C8bGqwJsbpw"
+                }, {
+                    "id": "QenHuR1Yccb"
+                }, {
+                    "id": "e7QMfxdpoPs"
+                }, {
+                    "id": "fSduyFi6Mi0"
+                }, {
+                    "id": "Y3M7EaonPn9"
+                }, {
+                    "id": "J9ar8dAwDRp"
+                }, {
+                    "id": "eb8kcibmB7G"
+                }, {
+                    "id": "flvdR9Q9Lbb"
+                }, {
+                    "id": "mwfQKoQqg5p"
+                }, {
+                    "id": "wjLXD1K0USB"
+                }, {
+                    "id": "FRJo7kSsFxP"
+                }, {
+                    "id": "xkvUSI1q3PB"
+                }, {
+                    "id": "jt5ha2AVQp3"
+                }, {
+                    "id": "pexDqh0Wcf9"
+                }, {
+                    "id": "geIBk4OCDsp"
+                }, {
+                    "id": "xqYQ9M9OC1v"
+                }, {
+                    "id": "WaJewTgRlkD"
+                }, {
+                    "id": "nrfWYK744W3"
+                }, {
+                    "id": "bN00SAoYh8Z"
+                }, {
+                    "id": "z8J2lsvc9Bx"
+                }, {
+                    "id": "bU1I1ExgbpU"
+                }, {
+                    "id": "l67h4A9Of2L"
+                }, {
+                    "id": "uovAVVyreHl"
+                }, {
+                    "id": "VoETEoggor3"
+                }, {
+                    "id": "KKukpDMoY7N"
+                }, {
+                    "id": "tSVLhOdYRmk"
+                }, {
+                    "id": "iqafnIuOuc8"
+                }, {
+                    "id": "LoRi5Uu3uPx"
+                }, {
+                    "id": "F5OTtRwnGO9"
+                }, {
+                    "id": "bBmdmbaSkVo"
+                }, {
+                    "id": "YguRkJU3OYq"
+                }, {
+                    "id": "EwFqXQN3iyM"
+                }, {
+                    "id": "jl0K1xIjsnx"
+                }, {
+                    "id": "caSklden7yT"
+                }, {
+                    "id": "eEdTOt4KBwJ"
+                }, {
+                    "id": "owiR36Ye9fB"
+                }, {
+                    "id": "zFMzwbNc9QD"
+                }, {
+                    "id": "IGWyQUfaNxC"
+                }, {
+                    "id": "K1qGvZD98ue"
+                }, {
+                    "id": "JE0TNcfdSNp"
+                }, {
+                    "id": "hL0YSuysPy9"
+                }, {
+                    "id": "sl2PReEhIJD"
+                }, {
+                    "id": "I3kUiEBJpIw"
+                }, {
+                    "id": "lBk3uZIFPe4"
+                }, {
+                    "id": "ZSLrKk3p9Eu"
+                }, {
+                    "id": "TxNtxNEi3zr"
+                }, {
+                    "id": "LJaGqUHwEif"
+                }, {
+                    "id": "Y9EP5B4Ic4z"
+                }, {
+                    "id": "pWsxKWHfpmV"
+                }, {
+                    "id": "jhpyx7DsMf6"
+                }, {
+                    "id": "M6XSoYy12rJ"
+                }, {
+                    "id": "csYuC9U3iBQ"
+                }, {
+                    "id": "Bwp9zHRGpMc"
+                }, {
+                    "id": "OdDHcgnuw3Z"
+                }, {
+                    "id": "Gg8303ohky6"
+                }, {
+                    "id": "giZ4uq6qHIG"
+                }, {
+                    "id": "K7SFlq6TstG"
+                }, {
+                    "id": "jZcWuMeBHov"
+                }, {
+                    "id": "qqZ8WMy1OnS"
+                }, {
+                    "id": "lCF2px8BC6O"
+                }, {
+                    "id": "YA0iCsk8qn1"
+                }, {
+                    "id": "AjXv75uJ7zg"
+                }, {
+                    "id": "rhpEqH58Zj6"
+                }, {
+                    "id": "Bl6HitooSKQ"
+                }, {
+                    "id": "E4czOVNlJDS"
+                }, {
+                    "id": "AqP5eot0sAB"
+                }, {
+                    "id": "w1pIvDkmYIR"
+                }, {
+                    "id": "K3HGH3qlIMg"
+                }, {
+                    "id": "EZFxtX44V13"
+                }, {
+                    "id": "uTwnsSoDx6h"
+                }, {
+                    "id": "TmmdFyejSPs"
+                }, {
+                    "id": "kkwdjI81UJD"
+                }, {
+                    "id": "mvnISJllh78"
+                }, {
+                    "id": "lbGBkZZKCuo"
+                }, {
+                    "id": "kiKulygc7SB"
+                }, {
+                    "id": "PsyzKcfcXk5"
+                }, {
+                    "id": "BRIFLWWE1ze"
+                }, {
+                    "id": "kiahSiJqUfC"
+                }, {
+                    "id": "EvXv5XVXKY3"
+                }, {
+                    "id": "DLebzocD3QN"
+                }, {
+                    "id": "bkdh0LaYxZ0"
+                }, {
+                    "id": "KLB7Uej9zxP"
+                }, {
+                    "id": "Kh43cXwiW6o"
+                }, {
+                    "id": "n27NzPOt9Nz"
+                }, {
+                    "id": "DibCXJ4AE5Z"
+                }, {
+                    "id": "WV3i0REnyCJ"
+                }, {
+                    "id": "mOLoKKKkwRD"
+                }, {
+                    "id": "Vw0a0polOvu"
+                }, {
+                    "id": "o32EAlpkNZh"
+                }, {
+                    "id": "DyDdWEeuCUf"
+                }, {
+                    "id": "M8MMS1TBmRn"
+                }, {
+                    "id": "ZBFagnlFpkR"
+                }, {
+                    "id": "HbTFEGlYWgI"
+                }, {
+                    "id": "NlvYOlvuPfT"
+                }, {
+                    "id": "JcEy4nzMY4w"
+                }, {
+                    "id": "LIAdF0wSK3A"
+                }, {
+                    "id": "SkOHvWoOU5c"
+                }, {
+                    "id": "h32r3ijmzHp"
+                }, {
+                    "id": "ugAuvsZaP3V"
+                }, {
+                    "id": "qWHdAjNht9k"
+                }, {
+                    "id": "lrx5p11LM2G"
+                }, {
+                    "id": "lVHta7HJtzz"
+                }, {
+                    "id": "WAm685GFIoq"
+                }, {
+                    "id": "A44T2Km9kD9"
+                }, {
+                    "id": "AOFJbd1awqH"
+                }, {
+                    "id": "WYZb7w2dOB2"
+                }, {
+                    "id": "yluScudGYPM"
+                }, {
+                    "id": "Iochb7Rvvh5"
+                }, {
+                    "id": "Xm5OnQfDf1j"
+                }, {
+                    "id": "wR7jwSW6REv"
+                }, {
+                    "id": "Pz66LuxquWk"
+                }, {
+                    "id": "gr6fnsJIYbV"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }, {
+                    "id": "s4PuLwCF3rm"
+                }, {
+                    "id": "T1lBfZlDMGf"
+                }, {
+                    "id": "mM95iDn4ern"
+                }, {
+                    "id": "Yjge0e6BoXM"
+                }, {
+                    "id": "g24QpU1UfeM"
+                }, {
+                    "id": "pag3vUfDyuj"
+                }, {
+                    "id": "sKvh36UWpZu"
+                }, {
+                    "id": "ss0hzSwQDBC"
+                }, {
+                    "id": "eGueC9hrwNm"
+                }, {
+                    "id": "ZenGLLPqvqe"
+                }, {
+                    "id": "SWUAmg31pjz"
+                }, {
+                    "id": "Kg1UDtaZY11"
+                }, {
+                    "id": "UeQHcrxWTXh"
+                }, {
+                    "id": "U4IXbbk0FFO"
+                }, {
+                    "id": "t7Cg93JXBx5"
+                }, {
+                    "id": "uKJqaejdG0w"
+                }, {
+                    "id": "Kck9Bch28ut"
+                }, {
+                    "id": "Js961HUOAXM"
+                }, {
+                    "id": "p8rvKYJ0fWa"
+                }, {
+                    "id": "JDnEq83TUX9"
+                }, {
+                    "id": "zohUcG0k7pU"
+                }, {
+                    "id": "XfbOJQ58APg"
+                }, {
+                    "id": "j1HJ3amru6d"
+                }, {
+                    "id": "P0oQBZ9jPEa"
+                }, {
+                    "id": "VXlcEhz0cjB"
+                }, {
+                    "id": "sN6durOUZU0"
+                }, {
+                    "id": "cVSEWCyHAlq"
+                }, {
+                    "id": "NhosE3tEo4c"
+                }, {
+                    "id": "Cy72j9bchwx"
+                }, {
+                    "id": "e5cWZO5tyJ0"
+                }, {
+                    "id": "Zgky9O0WXzD"
+                }, {
+                    "id": "oMaTfEyAOYT"
+                }
+            ],
+            "managedGroups": [],
+            "translations": [{
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "COVAC - Análisis de datos de inmunización Covid-19"
+                }, {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "COVAC - Analýza dat imunizace Covid-19"
+                }, {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "COVAC - Analyse des données de vaccination Covid-19"
+                }
+            ]
+        }, {
+            "created": "2021-06-04T10:42:20.686",
+            "lastUpdated": "2024-01-30T17:48:01.193",
+            "name": "COVAC - Covid-19 Immunization Data Entry",
+            "id": "q3Nh5xhJEy2",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Marko García",
+                "name": "Marko García",
+                "id": "dMoKYOPr2dl",
+                "username": "marko"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "VaqVniaXtLC"
+                }, {
+                    "id": "uIiKM6rlmwq"
+                }, {
+                    "id": "bWQG85oc0l3"
+                }, {
+                    "id": "SJCpE3dlboF"
+                }, {
+                    "id": "WFt1i2FT3nP"
+                }, {
+                    "id": "lvo94i4UTZu"
+                }, {
+                    "id": "HQfr6Uqs2SJ"
+                }, {
+                    "id": "R5x3KZSHX9g"
+                }, {
+                    "id": "FXRnm0dlNKl"
+                }, {
+                    "id": "SsLExjAAhUw"
+                }, {
+                    "id": "v2DxagGEjnR"
+                }, {
+                    "id": "qBSWQsQtBdh"
+                }, {
+                    "id": "ssyFo1g1YcU"
+                }, {
+                    "id": "lWvHdQ5nFCW"
+                }, {
+                    "id": "J9FmoOw5RF9"
+                }, {
+                    "id": "cn1VIoaTpeH"
+                }, {
+                    "id": "Uja3fPj28sI"
+                }, {
+                    "id": "c7jMZgDNHuI"
+                }, {
+                    "id": "OEoE6FYxyBQ"
+                }, {
+                    "id": "l4PRruvAqWq"
+                }, {
+                    "id": "KAHEZDK0EBr"
+                }, {
+                    "id": "KyTdJbajRJs"
+                }, {
+                    "id": "qOz5F5ueMUM"
+                }, {
+                    "id": "NoeN8rjQ8ZT"
+                }, {
+                    "id": "yM2KALeCzv3"
+                }, {
+                    "id": "aDRF30jbPdg"
+                }, {
+                    "id": "tPm2oj2Pcvx"
+                }, {
+                    "id": "xo3Con8iMUI"
+                }, {
+                    "id": "V7PQtcOKLaa"
+                }, {
+                    "id": "rpv4H6oCbzK"
+                }, {
+                    "id": "piXVJ8ww935"
+                }, {
+                    "id": "husRAYt4DYp"
+                }, {
+                    "id": "SQCd0qB8cdD"
+                }, {
+                    "id": "kDGf1X5hZAD"
+                }, {
+                    "id": "f2Qj0OMkPPb"
+                }, {
+                    "id": "PVCc3BioqGh"
+                }, {
+                    "id": "i84zbzP5Hnb"
+                }, {
+                    "id": "JGkS0VrMq2Y"
+                }, {
+                    "id": "wTlxmwbcxGe"
+                }, {
+                    "id": "HXBWFu68Ube"
+                }, {
+                    "id": "MTNhXsqHeLR"
+                }, {
+                    "id": "xwuz9lEtyU3"
+                }, {
+                    "id": "bRtYmwR1M5l"
+                }, {
+                    "id": "BXwEajwhoTK"
+                }, {
+                    "id": "ght6FIjQs4G"
+                }, {
+                    "id": "TAcrA7oxZFZ"
+                }, {
+                    "id": "FpEnIGJIlex"
+                }, {
+                    "id": "tktF2xxUpzV"
+                }, {
+                    "id": "gNwAo2vaXqF"
+                }, {
+                    "id": "Uxsa6OebKK9"
+                }, {
+                    "id": "cwYwAF4Iqud"
+                }, {
+                    "id": "NjAGMA5yOMK"
+                }, {
+                    "id": "XLsiwQPVwW2"
+                }, {
+                    "id": "quvT90tQZ7S"
+                }, {
+                    "id": "hEwh4AFkQAa"
+                }, {
+                    "id": "LewIElzKSOd"
+                }, {
+                    "id": "nUoyHmfGAmK"
+                }, {
+                    "id": "BXR4aUt4MMh"
+                }, {
+                    "id": "KdR0aTwNPOJ"
+                }, {
+                    "id": "KhUKLn8clmL"
+                }, {
+                    "id": "YKXWRdmtOSq"
+                }, {
+                    "id": "Jyr4f3rXFER"
+                }, {
+                    "id": "DPik96aIntg"
+                }, {
+                    "id": "O5esamAi2zX"
+                }, {
+                    "id": "j3ON9mNVEMm"
+                }, {
+                    "id": "foGgh2J7PSd"
+                }, {
+                    "id": "NOgHOOpG06m"
+                }, {
+                    "id": "pLVryYy4WQE"
+                }, {
+                    "id": "KeS0jdFCvGw"
+                }, {
+                    "id": "wB1SScalQDG"
+                }, {
+                    "id": "mKP65DcHTXf"
+                }, {
+                    "id": "Q1lg37FHJTs"
+                }, {
+                    "id": "C8bGqwJsbpw"
+                }, {
+                    "id": "QenHuR1Yccb"
+                }, {
+                    "id": "e7QMfxdpoPs"
+                }, {
+                    "id": "fSduyFi6Mi0"
+                }, {
+                    "id": "Y3M7EaonPn9"
+                }, {
+                    "id": "J9ar8dAwDRp"
+                }, {
+                    "id": "eb8kcibmB7G"
+                }, {
+                    "id": "flvdR9Q9Lbb"
+                }, {
+                    "id": "mwfQKoQqg5p"
+                }, {
+                    "id": "wjLXD1K0USB"
+                }, {
+                    "id": "FRJo7kSsFxP"
+                }, {
+                    "id": "xkvUSI1q3PB"
+                }, {
+                    "id": "M5zQapPyTZI"
+                }, {
+                    "id": "jt5ha2AVQp3"
+                }, {
+                    "id": "pexDqh0Wcf9"
+                }, {
+                    "id": "geIBk4OCDsp"
+                }, {
+                    "id": "xqYQ9M9OC1v"
+                }, {
+                    "id": "WaJewTgRlkD"
+                }, {
+                    "id": "nrfWYK744W3"
+                }, {
+                    "id": "bN00SAoYh8Z"
+                }, {
+                    "id": "z8J2lsvc9Bx"
+                }, {
+                    "id": "bU1I1ExgbpU"
+                }, {
+                    "id": "l67h4A9Of2L"
+                }, {
+                    "id": "uovAVVyreHl"
+                }, {
+                    "id": "VoETEoggor3"
+                }, {
+                    "id": "KKukpDMoY7N"
+                }, {
+                    "id": "tSVLhOdYRmk"
+                }, {
+                    "id": "iqafnIuOuc8"
+                }, {
+                    "id": "LoRi5Uu3uPx"
+                }, {
+                    "id": "F5OTtRwnGO9"
+                }, {
+                    "id": "bBmdmbaSkVo"
+                }, {
+                    "id": "YguRkJU3OYq"
+                }, {
+                    "id": "EwFqXQN3iyM"
+                }, {
+                    "id": "jl0K1xIjsnx"
+                }, {
+                    "id": "caSklden7yT"
+                }, {
+                    "id": "eEdTOt4KBwJ"
+                }, {
+                    "id": "owiR36Ye9fB"
+                }, {
+                    "id": "zFMzwbNc9QD"
+                }, {
+                    "id": "IGWyQUfaNxC"
+                }, {
+                    "id": "K1qGvZD98ue"
+                }, {
+                    "id": "JE0TNcfdSNp"
+                }, {
+                    "id": "hL0YSuysPy9"
+                }, {
+                    "id": "sl2PReEhIJD"
+                }, {
+                    "id": "I3kUiEBJpIw"
+                }, {
+                    "id": "lBk3uZIFPe4"
+                }, {
+                    "id": "ZSLrKk3p9Eu"
+                }, {
+                    "id": "TxNtxNEi3zr"
+                }, {
+                    "id": "LJaGqUHwEif"
+                }, {
+                    "id": "vUeLeQMSwhN"
+                }, {
+                    "id": "Y9EP5B4Ic4z"
+                }, {
+                    "id": "pWsxKWHfpmV"
+                }, {
+                    "id": "jhpyx7DsMf6"
+                }, {
+                    "id": "M6XSoYy12rJ"
+                }, {
+                    "id": "csYuC9U3iBQ"
+                }, {
+                    "id": "Bwp9zHRGpMc"
+                }, {
+                    "id": "OdDHcgnuw3Z"
+                }, {
+                    "id": "Gg8303ohky6"
+                }, {
+                    "id": "giZ4uq6qHIG"
+                }, {
+                    "id": "K7SFlq6TstG"
+                }, {
+                    "id": "jZcWuMeBHov"
+                }, {
+                    "id": "qqZ8WMy1OnS"
+                }, {
+                    "id": "lCF2px8BC6O"
+                }, {
+                    "id": "YA0iCsk8qn1"
+                }, {
+                    "id": "AjXv75uJ7zg"
+                }, {
+                    "id": "rhpEqH58Zj6"
+                }, {
+                    "id": "Bl6HitooSKQ"
+                }, {
+                    "id": "E4czOVNlJDS"
+                }, {
+                    "id": "AqP5eot0sAB"
+                }, {
+                    "id": "w1pIvDkmYIR"
+                }, {
+                    "id": "K3HGH3qlIMg"
+                }, {
+                    "id": "EZFxtX44V13"
+                }, {
+                    "id": "uTwnsSoDx6h"
+                }, {
+                    "id": "TmmdFyejSPs"
+                }, {
+                    "id": "kkwdjI81UJD"
+                }, {
+                    "id": "mvnISJllh78"
+                }, {
+                    "id": "lbGBkZZKCuo"
+                }, {
+                    "id": "kiKulygc7SB"
+                }, {
+                    "id": "PsyzKcfcXk5"
+                }, {
+                    "id": "BRIFLWWE1ze"
+                }, {
+                    "id": "kiahSiJqUfC"
+                }, {
+                    "id": "EvXv5XVXKY3"
+                }, {
+                    "id": "DLebzocD3QN"
+                }, {
+                    "id": "bkdh0LaYxZ0"
+                }, {
+                    "id": "KLB7Uej9zxP"
+                }, {
+                    "id": "Kh43cXwiW6o"
+                }, {
+                    "id": "n27NzPOt9Nz"
+                }, {
+                    "id": "DibCXJ4AE5Z"
+                }, {
+                    "id": "WV3i0REnyCJ"
+                }, {
+                    "id": "mOLoKKKkwRD"
+                }, {
+                    "id": "Vw0a0polOvu"
+                }, {
+                    "id": "o32EAlpkNZh"
+                }, {
+                    "id": "DyDdWEeuCUf"
+                }, {
+                    "id": "M8MMS1TBmRn"
+                }, {
+                    "id": "ZBFagnlFpkR"
+                }, {
+                    "id": "HbTFEGlYWgI"
+                }, {
+                    "id": "NlvYOlvuPfT"
+                }, {
+                    "id": "JcEy4nzMY4w"
+                }, {
+                    "id": "LIAdF0wSK3A"
+                }, {
+                    "id": "SkOHvWoOU5c"
+                }, {
+                    "id": "h32r3ijmzHp"
+                }, {
+                    "id": "ugAuvsZaP3V"
+                }, {
+                    "id": "qWHdAjNht9k"
+                }, {
+                    "id": "lrx5p11LM2G"
+                }, {
+                    "id": "lVHta7HJtzz"
+                }, {
+                    "id": "WAm685GFIoq"
+                }, {
+                    "id": "A44T2Km9kD9"
+                }, {
+                    "id": "AOFJbd1awqH"
+                }, {
+                    "id": "WYZb7w2dOB2"
+                }, {
+                    "id": "yluScudGYPM"
+                }, {
+                    "id": "Iochb7Rvvh5"
+                }, {
+                    "id": "Xm5OnQfDf1j"
+                }, {
+                    "id": "Pz66LuxquWk"
+                }, {
+                    "id": "gr6fnsJIYbV"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }, {
+                    "id": "s4PuLwCF3rm"
+                }, {
+                    "id": "T1lBfZlDMGf"
+                }, {
+                    "id": "mM95iDn4ern"
+                }, {
+                    "id": "Yjge0e6BoXM"
+                }, {
+                    "id": "g24QpU1UfeM"
+                }, {
+                    "id": "pag3vUfDyuj"
+                }, {
+                    "id": "sKvh36UWpZu"
+                }, {
+                    "id": "ss0hzSwQDBC"
+                }, {
+                    "id": "eGueC9hrwNm"
+                }, {
+                    "id": "SWUAmg31pjz"
+                }, {
+                    "id": "Kg1UDtaZY11"
+                }, {
+                    "id": "UeQHcrxWTXh"
+                }, {
+                    "id": "U4IXbbk0FFO"
+                }, {
+                    "id": "t7Cg93JXBx5"
+                }, {
+                    "id": "uKJqaejdG0w"
+                }, {
+                    "id": "Kck9Bch28ut"
+                }, {
+                    "id": "Js961HUOAXM"
+                }, {
+                    "id": "p8rvKYJ0fWa"
+                }, {
+                    "id": "JDnEq83TUX9"
+                }, {
+                    "id": "zohUcG0k7pU"
+                }, {
+                    "id": "XfbOJQ58APg"
+                }, {
+                    "id": "j1HJ3amru6d"
+                }, {
+                    "id": "P0oQBZ9jPEa"
+                }, {
+                    "id": "VXlcEhz0cjB"
+                }, {
+                    "id": "cVSEWCyHAlq"
+                }, {
+                    "id": "NhosE3tEo4c"
+                }, {
+                    "id": "Cy72j9bchwx"
+                }, {
+                    "id": "e5cWZO5tyJ0"
+                }, {
+                    "id": "Zgky9O0WXzD"
+                }, {
+                    "id": "oMaTfEyAOYT"
+                }
+            ],
+            "managedGroups": [],
+            "translations": [{
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "COVAC - Saisie des données de vaccination Covid-19"
+                }, {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "COVAC - vstup dat imunizace Covid-19"
+                }, {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "COVAC - Entrada de datos de inmunización Covid-19"
+                }
+            ]
+        }, {
+            "created": "2021-06-04T10:42:20.686",
+            "lastUpdated": "2024-06-21T17:00:18.700",
+            "name": "COVAC - Covid-19 Immunization Metadata Admin",
+            "id": "AEAQ9LktNze",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Marko García",
+                "name": "Marko García",
+                "id": "dMoKYOPr2dl",
+                "username": "marko"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "ugAuvsZaP3V"
+                }, {
+                    "id": "SsLExjAAhUw"
+                }, {
+                    "id": "wR7jwSW6REv"
+                }, {
+                    "id": "XLsiwQPVwW2"
+                }, {
+                    "id": "EwFqXQN3iyM"
+                }, {
+                    "id": "ZenGLLPqvqe"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }, {
+                    "id": "i84zbzP5Hnb"
+                }, {
+                    "id": "mM95iDn4ern"
+                }, {
+                    "id": "Kh43cXwiW6o"
+                }, {
+                    "id": "nUoyHmfGAmK"
+                }
+            ],
+            "managedGroups": [],
+            "translations": [{
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "COVAC - Administrador de metadatos de inmunización Covid-19"
+                }, {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "COVAC - správce metadat imunizace Covid-19"
+                }, {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "COVAC - Administrateur de métadonnées d'immunisation Covid-19"
+                }
+            ]
+        }, {
+            "created": "2023-08-03T17:27:17.620",
+            "lastUpdated": "2024-01-30T17:48:01.299",
+            "name": "Coordinadores Hospitales (Notificaciones)",
+            "id": "pkmcHiogQVL",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "SsLExjAAhUw"
+                }, {
+                    "id": "i84zbzP5Hnb"
+                }, {
+                    "id": "Kh43cXwiW6o"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2023-08-04T18:01:50.607",
+            "lastUpdated": "2024-01-30T17:48:01.280",
+            "name": "Coordinadores Nivel Nacional/Subnacional (Notificaciones)",
+            "id": "nms2c0F8fzd",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "SsLExjAAhUw"
+                }, {
+                    "id": "i84zbzP5Hnb"
+                }, {
+                    "id": "Kh43cXwiW6o"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T17:54:25.692",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Doctors",
+            "id": "HkwVUClIhbg",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "dMoKYOPr2dl"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "code": "CEN-ESAVI_ACCESS",
+            "created": "2023-10-23T15:42:11.484",
+            "lastUpdated": "2023-11-15T15:12:13.166",
+            "name": "ESAVI - Access",
+            "id": "Zeqke5vIROL",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "code": "CEN-ESAVI_ADMIN",
+            "created": "2023-10-23T15:42:34.599",
+            "lastUpdated": "2023-11-15T15:12:13.167",
+            "name": "ESAVI - Admin",
+            "id": "JMogTU05Xt5",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "code": "CEN-ESAVI_DATA_CAPTURE",
+            "created": "2023-10-23T15:43:10.272",
+            "lastUpdated": "2024-02-12T14:08:05.910",
+            "name": "ESAVI - Data Capture",
+            "id": "I2ZJYaY3Bic",
+            "lastUpdatedBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "createdBy": {
+                "displayName": "Pablo Del Medico",
+                "name": "Pablo Del Medico",
+                "id": "i84zbzP5Hnb",
+                "username": "pablo"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "uP7yymEI8H5"
+                }, {
+                    "id": "UKngXjojbw7"
+                }, {
+                    "id": "OmqIVzdRCmI"
+                }, {
+                    "id": "FeNbeZMWz7B"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2023-02-21T21:37:17.205",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Immunization Access",
+            "id": "cQcYi0n6CWJ",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2023-02-21T21:37:23.812",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Immunization Admin",
+            "id": "Aj3LmxkoCtO",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "lCF2px8BC6O"
+                }, {
+                    "id": "ZSLrKk3p9Eu"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2023-02-21T21:37:08.682",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Immunization Entry",
+            "id": "brnaJHIVz38",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "lCF2px8BC6O"
+                }, {
+                    "id": "ZSLrKk3p9Eu"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T18:52:50.668",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Management BOG",
+            "id": "eWLLPNQclXn",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "dMoKYOPr2dl"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T18:53:07.438",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Management NIP",
+            "id": "Tfz894lPVIv",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "dMoKYOPr2dl"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T18:53:13.380",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "NIP",
+            "id": "nD17byOhnMX",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "dMoKYOPr2dl"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T17:54:02.534",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Nurses",
+            "id": "RG5LogBrEct",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "VaqVniaXtLC"
+                }, {
+                    "id": "uIiKM6rlmwq"
+                }, {
+                    "id": "lvo94i4UTZu"
+                }, {
+                    "id": "pWsxKWHfpmV"
+                }, {
+                    "id": "HQfr6Uqs2SJ"
+                }, {
+                    "id": "FXRnm0dlNKl"
+                }, {
+                    "id": "jhpyx7DsMf6"
+                }, {
+                    "id": "v2DxagGEjnR"
+                }, {
+                    "id": "qBSWQsQtBdh"
+                }, {
+                    "id": "OdDHcgnuw3Z"
+                }, {
+                    "id": "ssyFo1g1YcU"
+                }, {
+                    "id": "lWvHdQ5nFCW"
+                }, {
+                    "id": "J9FmoOw5RF9"
+                }, {
+                    "id": "cn1VIoaTpeH"
+                }, {
+                    "id": "c7jMZgDNHuI"
+                }, {
+                    "id": "OEoE6FYxyBQ"
+                }, {
+                    "id": "l4PRruvAqWq"
+                }, {
+                    "id": "K7SFlq6TstG"
+                }, {
+                    "id": "KAHEZDK0EBr"
+                }, {
+                    "id": "KyTdJbajRJs"
+                }, {
+                    "id": "NoeN8rjQ8ZT"
+                }, {
+                    "id": "qOz5F5ueMUM"
+                }, {
+                    "id": "qqZ8WMy1OnS"
+                }, {
+                    "id": "yM2KALeCzv3"
+                }, {
+                    "id": "aDRF30jbPdg"
+                }, {
+                    "id": "tPm2oj2Pcvx"
+                }, {
+                    "id": "xo3Con8iMUI"
+                }, {
+                    "id": "V7PQtcOKLaa"
+                }, {
+                    "id": "Bl6HitooSKQ"
+                }, {
+                    "id": "E4czOVNlJDS"
+                }, {
+                    "id": "rpv4H6oCbzK"
+                }, {
+                    "id": "piXVJ8ww935"
+                }, {
+                    "id": "AqP5eot0sAB"
+                }, {
+                    "id": "SQCd0qB8cdD"
+                }, {
+                    "id": "w1pIvDkmYIR"
+                }, {
+                    "id": "kDGf1X5hZAD"
+                }, {
+                    "id": "f2Qj0OMkPPb"
+                }, {
+                    "id": "K3HGH3qlIMg"
+                }, {
+                    "id": "HXBWFu68Ube"
+                }, {
+                    "id": "uTwnsSoDx6h"
+                }, {
+                    "id": "xwuz9lEtyU3"
+                }, {
+                    "id": "bRtYmwR1M5l"
+                }, {
+                    "id": "kkwdjI81UJD"
+                }, {
+                    "id": "mvnISJllh78"
+                }, {
+                    "id": "PsyzKcfcXk5"
+                }, {
+                    "id": "tktF2xxUpzV"
+                }, {
+                    "id": "gNwAo2vaXqF"
+                }, {
+                    "id": "Uxsa6OebKK9"
+                }, {
+                    "id": "BRIFLWWE1ze"
+                }, {
+                    "id": "cwYwAF4Iqud"
+                }, {
+                    "id": "NjAGMA5yOMK"
+                }, {
+                    "id": "EvXv5XVXKY3"
+                }, {
+                    "id": "bkdh0LaYxZ0"
+                }, {
+                    "id": "LewIElzKSOd"
+                }, {
+                    "id": "KLB7Uej9zxP"
+                }, {
+                    "id": "KdR0aTwNPOJ"
+                }, {
+                    "id": "YKXWRdmtOSq"
+                }, {
+                    "id": "o32EAlpkNZh"
+                }, {
+                    "id": "DPik96aIntg"
+                }, {
+                    "id": "foGgh2J7PSd"
+                }, {
+                    "id": "ZBFagnlFpkR"
+                }, {
+                    "id": "KeS0jdFCvGw"
+                }, {
+                    "id": "NlvYOlvuPfT"
+                }, {
+                    "id": "wB1SScalQDG"
+                }, {
+                    "id": "LIAdF0wSK3A"
+                }, {
+                    "id": "C8bGqwJsbpw"
+                }, {
+                    "id": "QenHuR1Yccb"
+                }, {
+                    "id": "lrx5p11LM2G"
+                }, {
+                    "id": "qWHdAjNht9k"
+                }, {
+                    "id": "Y3M7EaonPn9"
+                }, {
+                    "id": "J9ar8dAwDRp"
+                }, {
+                    "id": "eb8kcibmB7G"
+                }, {
+                    "id": "flvdR9Q9Lbb"
+                }, {
+                    "id": "mwfQKoQqg5p"
+                }, {
+                    "id": "WAm685GFIoq"
+                }, {
+                    "id": "A44T2Km9kD9"
+                }, {
+                    "id": "AOFJbd1awqH"
+                }, {
+                    "id": "yluScudGYPM"
+                }, {
+                    "id": "Iochb7Rvvh5"
+                }, {
+                    "id": "Xm5OnQfDf1j"
+                }, {
+                    "id": "xqYQ9M9OC1v"
+                }, {
+                    "id": "WaJewTgRlkD"
+                }, {
+                    "id": "Pz66LuxquWk"
+                }, {
+                    "id": "gr6fnsJIYbV"
+                }, {
+                    "id": "bN00SAoYh8Z"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }, {
+                    "id": "bU1I1ExgbpU"
+                }, {
+                    "id": "s4PuLwCF3rm"
+                }, {
+                    "id": "l67h4A9Of2L"
+                }, {
+                    "id": "g24QpU1UfeM"
+                }, {
+                    "id": "ss0hzSwQDBC"
+                }, {
+                    "id": "iqafnIuOuc8"
+                }, {
+                    "id": "SWUAmg31pjz"
+                }, {
+                    "id": "LoRi5Uu3uPx"
+                }, {
+                    "id": "bBmdmbaSkVo"
+                }, {
+                    "id": "U4IXbbk0FFO"
+                }, {
+                    "id": "YguRkJU3OYq"
+                }, {
+                    "id": "jl0K1xIjsnx"
+                }, {
+                    "id": "Js961HUOAXM"
+                }, {
+                    "id": "K1qGvZD98ue"
+                }, {
+                    "id": "VXlcEhz0cjB"
+                }, {
+                    "id": "hL0YSuysPy9"
+                }, {
+                    "id": "NhosE3tEo4c"
+                }, {
+                    "id": "I3kUiEBJpIw"
+                }, {
+                    "id": "Cy72j9bchwx"
+                }, {
+                    "id": "e5cWZO5tyJ0"
+                }, {
+                    "id": "Zgky9O0WXzD"
+                }, {
+                    "id": "oMaTfEyAOYT"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T17:54:17.952",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Vaccination Doctors",
+            "id": "zzDHKb9Z23S",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "dMoKYOPr2dl"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }, {
+            "created": "2021-07-14T18:52:57.867",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Vaccinators BOG",
+            "id": "QK2VauGMWoA",
+            "lastUpdatedBy": {
+                "displayName": "robot robot",
+                "name": "robot robot",
+                "id": "XLsiwQPVwW2",
+                "username": "robot"
+            },
+            "createdBy": {
+                "displayName": "Shurajit Dutta",
+                "name": "Shurajit Dutta",
+                "id": "mM95iDn4ern",
+                "username": "sdutta"
+            },
+            "attributeValues": [],
+            "users": [{
+                    "id": "F5OTtRwnGO9"
+                }, {
+                    "id": "dMoKYOPr2dl"
+                }
+            ],
+            "managedGroups": [],
+            "translations": []
+        }
+    ]
+}
