@@ -1,0 +1,312 @@
+{
+    "system": {
+        "id": "f9542897-5f53-40de-ae46-acc544b1cf35",
+        "rev": "becb651",
+        "version": "2.38.5",
+        "date": "2024-10-01T19:59:59.389"
+    },
+    "userRoles": [
+        {
+            "name": "Dashboard - Aggregate",
+            "id": "BVq3WYiGt5Y",
+            "description": "Access to the dashboard and aggregate analytics",
+            "authorities": [
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-dashboard"
+            ],
+            "translations": []
+        },
+        {
+            "name": "Dashboard - Tracker",
+            "id": "OSEPPGKPeNg",
+            "description": "Access to the dashboard and event analytics",
+            "authorities": [
+                "M_dhis-web-cache-cleaner",
+                "F_VIEW_EVENT_ANALYTICS",
+                "M_dhis-web-dashboard"
+            ],
+            "translations": []
+        },
+        {
+            "name": "Data Analysis - Aggregate",
+            "id": "FX8Ke4uheEY",
+            "description": "Access to reports, maps, data visualizer, data quality",
+            "authorities": [
+                "M_dhis-web-data-quality",
+                "M_dhis-web-data-visualizer",
+                "M_dhis-web-dashboard",
+                "F_RUN_VALIDATION",
+                "M_dhis-web-reports",
+                "M_dhis-web-maps"
+            ],
+            "translations": []
+        },
+        {
+            "name": "Data Analysis - Event and Tracker ",
+            "id": "Zsv2oxDpUht",
+            "description": "Access to reports, maps, visualizer, event reports and event visualizer",
+            "authorities": [
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-event-visualizer",
+                "M_dhis-web-event-reports",
+                "F_VIEW_EVENT_ANALYTICS",
+                "M_dhis-web-data-visualizer",
+                "M_dhis-web-dashboard",
+                "M_dhis-web-reports",
+                "M_dhis-web-maps"
+            ],
+            "translations": []
+        },
+        {
+            "name": "Data Entry - Aggregate (with delete)",
+            "id": "pyiLCpwplsZ",
+            "description": "Enter aggregate data via data entry app - can delete data values",
+            "authorities": [
+                "F_DATAVALUE_DELETE",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-menu-management",
+                "M_dhis-web-dataentry",
+                "M_dhis-web-dashboard",
+                "F_DATAVALUE_ADD"
+            ],
+            "translations": []
+        },
+        {
+            "name": "Data Entry - Tracker (with delete)",
+            "id": "FTB5WdjOohF",
+            "description": "Enter tracker data via tracker capture with permission to delete TEIs and enrollments and re-open events",
+            "authorities": [
+                "F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS",
+                "F_ENROLLMENT_CASCADE_DELETE",
+                "M_dhis-web-cache-cleaner",
+                "F_VIEW_EVENT_ANALYTICS",
+                "F_TRACKED_ENTITY_UPDATE",
+                "M_dhis-web-messaging",
+                "M_dhis-web-tracker-capture",
+                "F_TRACKED_ENTITY_ADD",
+                "M_dhis-web-dashboard",
+                "F_TEI_CASCADE_DELETE",
+                "F_UNCOMPLETE_EVENT",
+                "F_TRACKED_ENTITY_DELETE"
+            ],
+            "translations": []
+        },
+        {
+            "name": "Data Entry - Tracker (without delete)",
+            "id": "gnZZ4hvvAMW",
+            "description": "Enter tracker data via tracker capture - can not delete TEIs or enrollments",
+            "authorities": [
+                "F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS",
+                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-menu-management",
+                "F_VIEW_EVENT_ANALYTICS",
+                "F_TRACKED_ENTITY_UPDATE",
+                "M_dhis-web-messaging",
+                "M_dhis-web-tracker-capture",
+                "F_TRACKED_ENTITY_ADD",
+                "M_dhis-web-dashboard"
+            ],
+            "translations": []
+        },
+        {
+            "code": "Superuser",
+            "name": "System Administration",
+            "id": "yrB6vc5Ip3r",
+            "description": "System Administration",
+            "authorities": [
+                "F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS",
+                "ALL",
+                "F_USERGROUP_MANAGING_RELATIONSHIPS_ADD",
+                "F_USER_VIEW",
+                "F_GENERATE_MIN_MAX_VALUES",
+                "F_USER_GROUPS_READ_ONLY_ADD_MEMBERS",
+                "F_PREDICTOR_RUN",
+                "F_IGNORE_TRACKER_REQUIRED_VALUE_VALIDATION",
+                "F_MAP_PUBLIC_ADD",
+                "F_REPLICATE_USER",
+                "F_SEND_EMAIL",
+                "F_INSERT_CUSTOM_JS_CSS",
+                "F_ENROLLMENT_CASCADE_DELETE",
+                "F_VIEW_EVENT_ANALYTICS",
+                "F_VIEW_UNAPPROVED_DATA",
+                "F_IMPORT_EVENTS",
+                "F_USERGROUP_MANAGING_RELATIONSHIPS_VIEW",
+                "F_TEI_CASCADE_DELETE",
+                "F_EXPORT_DATA",
+                "F_EDIT_EXPIRED",
+                "F_EVENTCHART_PUBLIC_ADD",
+                "F_PROGRAM_DASHBOARD_CONFIG_ADMIN",
+                "F_SYSTEM_SETTING",
+                "F_EVENT_VISUALIZATION_PUBLIC_ADD",
+                "F_APPROVE_DATA_LOWER_LEVELS",
+                "F_VISUALIZATION_PUBLIC_ADD",
+                "F_REPORT_PUBLIC_ADD",
+                "F_ORGANISATIONUNIT_MOVE",
+                "F_SKIP_DATA_IMPORT_AUDIT",
+                "F_RUN_VALIDATION",
+                "F_IMPORT_DATA",
+                "F_LOCALE_ADD",
+                "F_METADATA_IMPORT",
+                "F_EXPORT_EVENTS",
+                "M_dhis-web-data-visualizer",
+                "F_PERFORM_MAINTENANCE",
+                "F_METADATA_EXPORT",
+                "F_APPROVE_DATA",
+                "F_ACCEPT_DATA_LOWER_LEVELS",
+                "F_UNCOMPLETE_EVENT"
+            ],
+            "translations": []
+        }
+    ],
+    "userGroups": [
+        {
+            "code": "AEFI_ACCESS",
+            "created": "2021-09-13T04:07:44.638",
+            "lastUpdated": "2024-06-06T11:30:14.213",
+            "name": "AEFI access",
+            "id": "J3mFUNTreYY",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Accès aux MAPI"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV access"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "AEFI Přístup"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Acceso ESAVI"
+                }
+            ]
+        },
+        {
+            "code": "AEFI_ADMIN",
+            "created": "2021-09-13T04:07:44.638",
+            "lastUpdated": "2024-06-06T11:30:14.146",
+            "name": "AEFI admin",
+            "id": "kPBGgIFMNFv",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Administrador de ESAVI"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "AEFI Správce "
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV admin"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Gestion de la MAPI"
+                }
+            ]
+        },
+        {
+            "code": "AEFI_DATA",
+            "created": "2021-09-13T04:07:44.638",
+            "lastUpdated": "2024-06-06T11:30:14.147",
+            "name": "AEFI data capture",
+            "id": "RWyhKm0cuQ5",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Captura de datos ESAVI"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "cs",
+                    "value": "AEFI Sběr dat"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Saisie de données de la MAPI"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "EAPV data capture"
+                }
+            ]
+        },
+        {
+            "created": "2021-07-14T17:53:14.345",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Administrative Assistant",
+            "id": "SBLMwZxwsLK",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        },
+        {
+            "created": "2021-07-14T17:53:01.451",
+            "lastUpdated": "2023-07-19T09:14:32.314",
+            "name": "Admins",
+            "id": "BZZrqkfUU1r",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        },
+        {
+            "code": "CEN-ESAVI_ACCESS",
+            "created": "2023-10-23T15:42:11.484",
+            "lastUpdated": "2023-11-15T15:12:13.166",
+            "name": "ESAVI - Access",
+            "id": "Zeqke5vIROL",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        },
+        {
+            "code": "CEN-ESAVI_ADMIN",
+            "created": "2023-10-23T15:42:34.599",
+            "lastUpdated": "2023-11-15T15:12:13.167",
+            "name": "ESAVI - Admin",
+            "id": "JMogTU05Xt5",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        },
+        {
+            "code": "CEN-ESAVI_DATA_CAPTURE",
+            "created": "2023-10-23T15:43:10.272",
+            "lastUpdated": "2024-02-12T14:08:05.910",
+            "name": "ESAVI - Data Capture",
+            "id": "I2ZJYaY3Bic",
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": []
+        }
+    ]
+}

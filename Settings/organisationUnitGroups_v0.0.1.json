@@ -1,0 +1,34 @@
+{
+	"organisationUnitGroups": [{
+            "code": "HC",
+            "created": "2023-10-21T00:16:55.302",
+            "lastUpdated": "2023-11-20T16:00:16.298",
+            "name": "Hospital Centinela ",
+            "id": "WBsKWinbYo9",
+            "shortName": "Hospital Centinela ",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        }, {
+            "code": "HE",
+            "created": "2021-11-24T14:10:23.251",
+            "lastUpdated": "2024-04-05T15:33:47.656",
+            "name": "Hospitales ESAVI",
+            "id": "j9r5777jlYz",
+            "shortName": "Hospitales ESAVI",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        }, {
+            "code": "HNC",
+            "created": "2023-10-21T00:16:55.302",
+            "lastUpdated": "2024-08-09T17:18:12.447",
+            "name": "Hospital no Centinela ",
+            "id": "K819wu5bSfL",
+            "shortName": "Hospital no Centinela",
+            "attributeValues": [],
+            "translations": [],
+            "organisationUnits": []
+        }
+    ]
+}
